@@ -6,5 +6,6 @@ module org.nothelloworld.demo {
     opens org.javafx to javafx.fxml;
     exports org.javafx.draw;
     exports org.javafx.nothelloworld;
+    exports org.javafx.font;
     opens org.javafx.nothelloworld to javafx.fxml;
 }
