@@ -3,6 +3,8 @@ module org.nothelloworld.demo {
     requires javafx.fxml;
 
 
-    opens org.nothelloworld.demo to javafx.fxml;
-    exports org.nothelloworld.demo;
+    opens org.javafx to javafx.fxml;
+    exports org.javafx.draw;
+    exports org.javafx.nothelloworld;
+    opens org.javafx.nothelloworld to javafx.fxml;
 }

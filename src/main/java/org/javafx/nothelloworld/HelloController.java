@@ -1,4 +1,4 @@
-package org.nothelloworld.demo;
+package org.javafx.nothelloworld;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

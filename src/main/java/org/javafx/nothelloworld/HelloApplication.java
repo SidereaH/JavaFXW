@@ -1,4 +1,4 @@
-package org.nothelloworld.demo;
+package org.javafx.nothelloworld;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
