@@ -8,5 +8,6 @@ module org.nothelloworld.demo {
     exports org.javafx.nothelloworld;
     exports org.javafx.font;
     exports org.javafx.event;
+    exports org.javafx.event.mouse;
     opens org.javafx.nothelloworld to javafx.fxml;
 }
